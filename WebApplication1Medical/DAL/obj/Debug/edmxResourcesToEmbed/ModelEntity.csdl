@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MedicalModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="MedicalEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="insertData">
+      <Parameter Name="platelets" Mode="In" Type="Double" />
+      <Parameter Name="albumin" Mode="In" Type="Double" />
+    </FunctionImport>
+    <FunctionImport Name="P_getTable" ReturnType="Collection(MedicalModel.P_getTable_Result)" />
+  </EntityContainer>
+  <ComplexType Name="P_getTable_Result">
+    <Property Type="Int32" Name="medicalID" Nullable="false" />
+    <Property Type="Double" Name="platelets" Nullable="false" />
+    <Property Type="Double" Name="albumin" Nullable="false" />
+    <Property Type="DateTime" Name="date" Nullable="false" Precision="23" />
+  </ComplexType>
+</Schema>

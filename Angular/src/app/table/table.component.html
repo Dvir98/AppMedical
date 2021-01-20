@@ -1,0 +1,31 @@
+<!-- Table -->
+<div *ngIf="dataSource">
+  <table mat-table [dataSource]="dataSource" class="mat-elevation-z8"> 
+      <!-- medicalID Column -->
+      <ng-container matColumnDef="medicalID">
+        <th mat-header-cell *matHeaderCellDef> medicalID </th>
+        <td mat-cell *matCellDef="let element"> {{element.medicalID}} </td>
+      </ng-container>
+    
+      <!-- platelets Column -->
+      <ng-container matColumnDef="platelets">
+        <th mat-header-cell *matHeaderCellDef> platelets </th>
+        <td mat-cell *matCellDef="let element"> {{element.platelets}} </td>
+      </ng-container>
+    
+      <!-- albumin Column -->
+      <ng-container matColumnDef="albumin">
+        <th mat-header-cell *matHeaderCellDef> albumin </th>
+        <td mat-cell *matCellDef="let element"> {{element.albumin}} </td>
+      </ng-container>
+    
+      <!-- date Column -->
+      <ng-container matColumnDef="date">
+        <th mat-header-cell *matHeaderCellDef> date </th>
+        <td mat-cell *matCellDef="let element"> {{element.date}} </td>
+      </ng-container>
+    
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+</div>

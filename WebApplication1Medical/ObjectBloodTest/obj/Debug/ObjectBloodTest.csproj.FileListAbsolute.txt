@@ -1,0 +1,5 @@
+C:\App\AppMedical\WebApplication1Medical\ObjectBloodTest\bin\Debug\ObjectBloodTest.dll
+C:\App\AppMedical\WebApplication1Medical\ObjectBloodTest\bin\Debug\ObjectBloodTest.pdb
+C:\App\AppMedical\WebApplication1Medical\ObjectBloodTest\obj\Debug\ObjectBloodTest.csprojAssemblyReference.cache
+C:\App\AppMedical\WebApplication1Medical\ObjectBloodTest\obj\Debug\ObjectBloodTest.dll
+C:\App\AppMedical\WebApplication1Medical\ObjectBloodTest\obj\Debug\ObjectBloodTest.pdb

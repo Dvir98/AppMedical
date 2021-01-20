@@ -1,0 +1,13 @@
+C:\App\AppMedical\WebApplication1Medical\BL\bin\Debug\BL.dll
+C:\App\AppMedical\WebApplication1Medical\BL\bin\Debug\BL.pdb
+C:\App\AppMedical\WebApplication1Medical\BL\bin\Debug\DAL.dll
+C:\App\AppMedical\WebApplication1Medical\BL\bin\Debug\EntityFramework.dll
+C:\App\AppMedical\WebApplication1Medical\BL\bin\Debug\DAL.pdb
+C:\App\AppMedical\WebApplication1Medical\BL\bin\Debug\DAL.dll.config
+C:\App\AppMedical\WebApplication1Medical\BL\bin\Debug\EntityFramework.xml
+C:\App\AppMedical\WebApplication1Medical\BL\obj\Debug\BL.csprojAssemblyReference.cache
+C:\App\AppMedical\WebApplication1Medical\BL\obj\Debug\BL.csproj.CopyComplete
+C:\App\AppMedical\WebApplication1Medical\BL\obj\Debug\BL.dll
+C:\App\AppMedical\WebApplication1Medical\BL\obj\Debug\BL.pdb
+C:\App\AppMedical\WebApplication1Medical\BL\bin\Debug\ObjectBloodTest.dll
+C:\App\AppMedical\WebApplication1Medical\BL\bin\Debug\ObjectBloodTest.pdb

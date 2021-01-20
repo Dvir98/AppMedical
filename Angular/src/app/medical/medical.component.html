@@ -1,0 +1,31 @@
+
+<div class="head">
+    <h1 class="title"> Medical System </h1>
+</div>
+
+<div class="body">
+    <mat-form-field class="example-form-field">
+        <input matInput type="number" [(ngModel)]="Value.Platelet" placeholder="Platelets" required>
+    </mat-form-field>
+    
+    <mat-form-field class="example-form-field">
+        <input matInput type="number" [(ngModel)]="Value.Albumin" placeholder="Albumin" required>
+    </mat-form-field>
+    
+    <mat-form-field appearance="fill">
+        <mat-label>Math</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let shape of Symbol" (click)="dataChanged(shape)" [value]="shape" required>
+            {{shape}}
+          </mat-option>
+        </mat-select>
+    </mat-form-field>
+
+    <br>
+    <button class="button" (click)="sendDataToService()" mat-raised-button color="primary">Send</button>
+    <h1 class="result">Result: {{result}} </h1> 
+</div>
+
+<app-table [dataSource]="dataSource"> </app-table>
+
+

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MedicalModelStoreContainer" CdmEntityContainer="MedicalEntities">
+    <FunctionImportMapping FunctionImportName="insertData" FunctionName="MedicalModel.Store.insertData" />
+    <FunctionImportMapping FunctionImportName="P_getTable" FunctionName="MedicalModel.Store.P_getTable">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MedicalModel.P_getTable_Result">
+          <ScalarProperty Name="medicalID" ColumnName="medicalID" />
+          <ScalarProperty Name="platelets" ColumnName="platelets" />
+          <ScalarProperty Name="albumin" ColumnName="albumin" />
+          <ScalarProperty Name="date" ColumnName="date" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
